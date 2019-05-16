@@ -28,14 +28,19 @@
 
 				<p class="group"><label for="scholarship1">Student Scholarship Amount</label>
 				<input type="number" name="scholarship1" id="scholarship1" value="1000.00"></p>	
-								
+
 			</fieldset>
 			
 			<fieldset>
 				<p><button onclick="saveData()" id="saveData">Save student data to Local Storage / Must be done before a report can be issued</button></p>
 				
 				<button onclick="makeReport()">Generate Report</button>
+
+				<button onclick="delFees()">Delete fees</button>
+
+				<button onclick="delEverything()">Delete Everything</button>
 			</fieldset>
+
 		</section>
 		
 		<section id="report">
